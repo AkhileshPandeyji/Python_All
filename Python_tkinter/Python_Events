@@ -1,0 +1,47 @@
+Mouse : <Button> : Any Mouse Button with mouse ptr over the widget
+        <Button-1> : Left Mouse Button
+        <Button-2> : Middle Mouse Button
+        <Button-3> : Right Mouse Button
+        <Button-4> : Scroll up if Wheel support
+        <Button-5> : Scroll down if Wheel support
+        <ButtonPress-1>
+        <ButtonPress-2>
+        <ButtonPress-3>
+        <ButtonRelease-1>
+        <ButtonRelease-2>
+        <ButtonRelease-3>
+        <B1-Motion>
+        <B2-Motion>
+        <B3-Motion>
+        <Double-Button-1>
+        <Double-Button-2>
+        <Double-Button-3> : can also use Triple as Prefix
+
+
+Listbox : <<ListboxSelect>>
+
+Widget : <Configure> : event.width event.height new dimensions
+         <Enter> :  Widget Entered (n Enter Key)
+         <Leave> :  Widget Left (n Enter Key)
+
+KeyBoard :  <Key> : event.char in callback
+            <Return>
+            <FocusIn>
+            <focusOut>
+            <Alt_L>
+            <Control_L>
+            <Shift_L>
+            <F1>
+            <Up>
+            <Escape>
+            <Backspace>
+            <Caps_Lock>
+            <Shift-Up>
+            <Prior> : Pg Up
+            <Next> : Pg Dwn
+            <space>
+            <less>
+            <Num_Lock>
+            'a' or '1': Printable Characters like (a,b,c,d,----) (1,2,3,4,------)
+
+

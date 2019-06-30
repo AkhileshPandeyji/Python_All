@@ -1,0 +1,7 @@
+2019-06-16 23:19:31,556 Added different types
+2019-06-16 23:19:31,556 Everything working fine
+2019-06-16 23:19:31,557 Don't use class with no initializer
+2019-06-16 23:19:31,557 Internet is not connected
+2019-06-16 23:19:31,557 divide by zero
+2019-06-16 23:19:31,557 Service is shut down
+2019-06-16 23:19:31,557 <class 'ZeroDivisionError'> is caused as division by zero on line 32
