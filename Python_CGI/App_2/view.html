@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Enter the Values for Prediction:</h1>
+    <form action="cgi-bin/predict.py">
+        <label for="bedrooms">Bedrooms:</label>
+        <input type="text" placeholder="Bedrooms" name="bedrooms">
+        <label for="bathrooms">Bathrooms:</label>
+        <input type="text" placeholder="Bathrooms" name="bathrooms">
+        <label for="area">SQ ft Area:</label>
+        <input type="text" placeholder="Area" name="area">
+        <label for="waterfront">WaterFront:</label>
+        <select name="waterfront">
+            <option value=1>Yes</option>
+            <option value=0>No</option>
+        </select>
+        <input type="submit" value="Go">
+    </form>
+        
+</body>
+</html>
